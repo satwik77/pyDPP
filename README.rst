@@ -4,24 +4,10 @@ pyDPP
 
 A python package for sampling from determinantal point processes. Below are instances of sampling from a bicluster and from a random set of points using pyDPP. Refer to examples for more information.
 
-.. image:: https://raw.githubusercontent.com/satwik77/pyDPP/master/example/original_points_bicluster.png?token=AKhAbafMvTsLS2qPVEJJUgrKxvOA-X0Uks5b0beYwA%3D%3D 
-    :width: 150pt
 
-.. image:: https://raw.githubusercontent.com/satwik77/pyDPP/master/example/dpp_biselection_k6.png?token=AKhAbcyy19XZFqzPq1LAsQne25brrMnNks5b0baVwA%3D%3D 
-    :width: 150pt
+.. raw:: html
 
-.. image:: https://raw.githubusercontent.com/satwik77/pyDPP/master/example/dpp_biselection_k8.png?token=AKhAbYorZxjSQFvScnSLS4wSS3K2MnMwks5b0bfHwA%3D%3D
-    :width: 150pt
-
-
-.. image:: https://raw.githubusercontent.com/satwik77/pyDPP/master/example/original_points_random.png?token=AKhAbe5GRE4Xunr27vH3yZuhwV_VyZmZks5b0bhDwA%3D%3D 
-    :width: 150pt
-
-.. image:: https://raw.githubusercontent.com/satwik77/pyDPP/master/example/random_selection_k12.png?token=AKhAbfUxxoDHR1K7lgM_viUaqUHzar31ks5b0bhPwA%3D%3D 
-    :width: 150pt
-
-.. image:: https://raw.githubusercontent.com/satwik77/pyDPP/master/example/dpp_selection_k12.png?token=AKhAbS05A3CBgKfXR9P7i4adhlM7Q-whks5b0bhYwA%3D%3D
-    :width: 150pt
+    <img src="https://raw.githubusercontent.com/satwik77/pyDPP/master/example/dpp_selection_k12.png?token=AKhAbS05A3CBgKfXR9P7i4adhlM7Q-whks5b0bhYwA%3D%3D" height="220px"> 
 
 
 
