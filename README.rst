@@ -8,7 +8,7 @@ pyDPP
 
 .. image:: https://travis-ci.org/satwik77/pyDPP.svg?branch=master
     :target: https://travis-ci.org/satwik77/pyDPP
-   :alt: Latest Travis CI build status
+
 
 A python package for sampling from determinantal point processes. Below are instances of sampling from a bicluster and from a random set of points using pyDPP. Refer to examples and references for more information.
 
@@ -37,6 +37,15 @@ Usage example:
 Installation
 ------------
 
+Stable
+^^^^^^^^^^^^^^^^^^^^^
+The stable release can directly be installed by pip:
+::
+
+  $ pip install pydpp
+
+Dev
+^^^^^^^^^^^^^^^^^^^^^
 To get the project's source code, clone the github repository:
 
 ::
