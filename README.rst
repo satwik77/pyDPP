@@ -2,7 +2,7 @@
 pyDPP
 =====
 
-A python package for sampling from determinantal point processes. Below are instances of sampling from a bicluster and from a random set of points using pyDPP. Refer to examples for more information.
+A python package for sampling from determinantal point processes. Below are instances of sampling from a bicluster and from a random set of points using pyDPP. Refer to examples and references for more information.
 
 
 .. raw:: html
@@ -68,3 +68,13 @@ To run the example jupyter notebook you need install jupyter notebook, sklearn a
 Compatibility
 ^^^^^^^^^^^^^
 The package has been test with python 2.7 and python 3.5.2
+
+
+Reference
+^^^^^^^^^^
+
+- Kulesza, A. and Taskar, B., 2011. k-DPPs: Fixed-size determinantal point processes. In Proceedings of the 28th International Conference on Machine Learning (ICML-11) (pp. 1193-1200). [`paper <https://homes.cs.washington.edu/~taskar/pubs/kdpps_icml11.pdf>`__]
+
+- Kulesza, A. and Taskar, B., 2012. Determinantal point processes for machine learning. Foundations and Trends® in Machine Learning, 5(2–3), pp.123-286. [`paper <http://www.alexkulesza.com/pubs/dpps_fnt12.pdf>`__]
+
+

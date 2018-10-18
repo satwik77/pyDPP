@@ -4,8 +4,8 @@ import numpy as np
 import scipy.linalg as la
 from numpy.linalg import eig
 import pdb
-from utils import elem_sympoly, sample_k_eigenvecs
-from kernels import cosine_similary, rbf
+from .utils import elem_sympoly, sample_k_eigenvecs
+from .kernels import cosine_similary, rbf
 
 # Refer to paper: k-DPPs: Fixed-Size Determinantal Point Processes [ICML 11]
 

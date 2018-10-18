@@ -15,7 +15,7 @@ def read(filename):
 
 setup(
     name="pydpp",
-    version="0.1.0",
+    version="0.2.0",
     url="https://github.com/satwik77/pyDPP",
     license='MIT',
 
@@ -27,7 +27,7 @@ setup(
 
     packages=find_packages(exclude=('tests',)),
 
-    install_requires=['numpy', 'scipy'],
+    install_requires=['numpy>=1.1.0', 'scipy>=1.1.0'],
 
     classifiers=[
         'Development Status :: 2 - Pre-Alpha',
