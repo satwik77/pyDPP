@@ -34,8 +34,9 @@ class DPP():
     """
 
     def __init__(self, X=None,  A=None, **kwargs):
-        self.A = A
         self.X = X
+        if A:
+            self.A = A
 
     def compute_kernel(self, kernel_type='cos-sim', kernel_func=None, *args, **kwargs):
         if kernel_func == None:
@@ -48,7 +49,7 @@ class DPP():
 
     def sample(self):
 
-        if self.A == None:
+        if not hasattr(self,'A'):
             self.compute_kernel(kernel_type='cos-sim')
 
         eigen_vals, eigen_vec = eig(self.A)
@@ -98,7 +99,7 @@ class DPP():
 
     def sample_k(self, k=5):
 
-        if self.A == None:
+        if not hasattr(self,'A'):
             self.compute_kernel(kernel_type='cos-sim')
 
         eigen_vals, eigen_vec = eig(self.A)

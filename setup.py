@@ -15,7 +15,7 @@ def read(filename):
 
 setup(
     name="pydpp",
-    version="0.2.0",
+    version="0.2.1",
     url="https://github.com/satwik77/pyDPP",
     license='MIT',
 

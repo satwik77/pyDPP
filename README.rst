@@ -2,6 +2,14 @@
 pyDPP
 =====
 
+.. image:: https://img.shields.io/pypi/v/pydpp.svg
+    :target: https://pypi.python.org/pypi/pydpp
+    :alt: Latest PyPI version
+
+.. image:: https://travis-ci.org/satwik77/pyDPP.svg?branch=master
+    :target: https://travis-ci.org/satwik77/pyDPP
+   :alt: Latest Travis CI build status
+
 A python package for sampling from determinantal point processes. Below are instances of sampling from a bicluster and from a random set of points using pyDPP. Refer to examples and references for more information.
 
 

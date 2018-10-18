@@ -33,5 +33,4 @@ def sample_k_eigenvecs(lmbda, k):
             rem-=1
         i-=1
     S= np.array(S)
-    print(S)
     return S
