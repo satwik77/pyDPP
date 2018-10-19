@@ -23,7 +23,7 @@ setup(
     author_email="satwik55@gmail.com",
 
     description="A python package for sampling from determinantal point processes",
-    long_description=read("README.rst"),
+    long_description=open('README.md').read(),
 
     packages=find_packages(exclude=('tests',)),
 
