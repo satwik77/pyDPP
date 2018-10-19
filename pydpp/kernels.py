@@ -8,7 +8,7 @@ import numpy as np
 
 def rbf(X, sigma=0.5):
 	pairwise_dists = squareform(pdist(X, 'euclidean'))
-	A = scipy.exp(-pairwise_dists ** 2 / sigma ** 2)
+	A = scipy.exp(-pairwise_dists ** 2 / (2. * sigma ** 2))
 	return A
 
 def cosine_similary(X):
