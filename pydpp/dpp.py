@@ -64,7 +64,6 @@ class DPP():
 
 
         V = eigen_vec[jidx]           # Set of vectors V in paper
-        # print(V.shape)
         num_v = len(V)
 
 
@@ -89,7 +88,6 @@ class DPP():
             V= V.T
 
             num_v-=1
-            # print((num_v,y_i))
 
         Y.sort()
 
@@ -117,9 +115,7 @@ class DPP():
             jidx = sample_k_eigenvecs(eigen_vals, k)
 
         V = eigen_vec[jidx]           # Set of vectors V in paper
-        # print(V.shape)
         num_v = len(V)
-        # print(num_v)
 
         Y = []
         while num_v>0:
@@ -128,11 +124,7 @@ class DPP():
 
             # pdb.set_trace()
             Y.append(y_i)
-            # print('--------')
-            # print(y_i)
             # Z.remove(Z[y_i])
-            # print(V.shape)
-            # print(V)
             V =V.T
             try:
                 ri = np.argmax(np.abs(V[y_i]) >0)
@@ -153,10 +145,8 @@ class DPP():
             V= V.T
 
             num_v-=1
-            # print((num_v,y_i))
 
         Y.sort()
-        # print(Y)
         out = np.array(Y)
 
         return out
