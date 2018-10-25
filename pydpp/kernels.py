@@ -11,7 +11,7 @@ def rbf(X, sigma=0.5):
 	A = scipy.exp(-pairwise_dists ** 2 / sigma ** 2)
 	return A
 
-def cosine_similary(X):
+def cosine_similarity(X):
 	d=[]
 	cos_sim = lambda a,b: dot(a, b)/(norm(a)*norm(b))
 	for i in range(X.shape[0]):
