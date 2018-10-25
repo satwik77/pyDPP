@@ -3,7 +3,7 @@ import scipy.linalg as la
 from numpy.linalg import eig
 import pdb
 from .utils import elem_sympoly, sample_k_eigenvecs
-from .kernels import cosine_similary, rbf
+
 from .vec_kernels import sent_cosine_sim, sent_rbf
 
 
@@ -42,7 +42,7 @@ class DPP_text():
             if kernel_type == 'cos-sim':
                 self.A = sent_cosine_sim(self.X )
             elif kernel_type == 'rbf':
-                self.A =sent_rbf(self.X, **kwargs)
+                self.A =sent_rbf(self.X, sigma= kwargs['sigma'])
         else:
             self.A = kernel_func(self.X, **kwargs)
 
